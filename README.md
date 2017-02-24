@@ -16,3 +16,8 @@ As Drupal uses [composer/installers][],
 [ede-php-autolaod]: https://github.com/stevenremot/ede-php-autoload/
 [composer/installers]: https://github.com/composer/installers
 [ede-php-autoload-composer-installers]: https://github.com/xendk/ede-php-autoload-composer-installers
+
+## License
+
+This project is released under the GPL v3 license. See `GPL` for
+details.
