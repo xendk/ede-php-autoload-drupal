@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/xendk/ede-php-autoload-drupal.svg?branch=master)](https://travis-ci.org/xendk/ede-php-autoload-drupal)
 
-# ede-php-autolaod-drupal
+# ede-php-autoload-drupal
 
 ## Description
 
@@ -15,7 +15,7 @@ As Drupal uses [composer/installers][],
 [ede-php-autoload-composer-installers][] is required for practical use.
 
 [Drupal]: http://drupal.org/
-[ede-php-autolaod]: https://github.com/stevenremot/ede-php-autoload/
+[ede-php-autoload]: https://github.com/stevenremot/ede-php-autoload/
 [composer/installers]: https://github.com/composer/installers
 [ede-php-autoload-composer-installers]: https://github.com/xendk/ede-php-autoload-composer-installers
 
