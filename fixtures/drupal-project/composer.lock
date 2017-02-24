@@ -1,0 +1,12 @@
+{
+    "packages": [
+        {
+            "name": "drupal/core",
+            "autoload": {
+                "psr-4": {
+                    "Drupal\\Core\\": "lib/Drupal/Core"
+                }
+            }
+        }
+    ]
+}
