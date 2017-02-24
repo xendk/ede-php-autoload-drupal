@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/xendk/ede-php-autoload-drupal.svg?branch=master)](https://travis-ci.org/xendk/ede-php-autoload-drupal)
+
 # ede-php-autolaod-drupal
 
 ## Description
