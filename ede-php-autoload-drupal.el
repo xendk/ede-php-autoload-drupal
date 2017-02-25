@@ -45,7 +45,7 @@
 CONTEXT is the composer context and AUTOLOADS are the currently
 found autoloads."
   (let* ((core-path (ede-php-autoload-drupal--core-path autoloads))
-         (drupal-root (f-dirname core-path))
+         (drupal-root (if core-path (f-dirname core-path)))
          (module-autoloads ()))
     (when core-path
       (setq autoloads
