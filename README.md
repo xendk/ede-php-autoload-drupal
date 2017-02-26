@@ -1,4 +1,6 @@
 [![Build Status](https://travis-ci.org/xendk/ede-php-autoload-drupal.svg?branch=master)](https://travis-ci.org/xendk/ede-php-autoload-drupal)
+[![MELPA Stable](https://stable.melpa.org/packages/ede-php-autoload-drupal-badge.svg)](https://stable.melpa.org/#/ede-php-autoload-drupal)
+[![MELPA](https://melpa.org/packages/ede-php-autoload-drupal-badge.svg)](https://melpa.org/#/ede-php-autoload-drupal)
 
 # ede-php-autoload-drupal
 
