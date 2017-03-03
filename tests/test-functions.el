@@ -30,6 +30,7 @@
 (let ((root (f-parent (f-parent (f-this-file)))))
   (add-to-list 'load-path root)
   (setq ede-php-autoload-drupal-fixtures (f-join root "fixtures")))
+(require 'ede-php-autoload-drupal)
 
 (describe "ede-php-autoload-drupal--core-path"
   (it "should detect core"
