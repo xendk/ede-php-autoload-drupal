@@ -3,7 +3,7 @@ CASK=cask
 .PHONY: test test-unit test-functional test-all elc package clean
 
 test-unit:
-	$(CASK) exec ert-runner
+	$(CASK) exec buttercup
 
 test-functional:
 	$(CASK) exec ecukes
