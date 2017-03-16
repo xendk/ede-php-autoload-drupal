@@ -94,7 +94,7 @@ found autoloads."
 (defun ede-php-autoload-drupal--find-dirs-with-modules (path)
   "Return directories in PATH which contain a `modules' directory."
   (when (f-exists? path)
-        (f--directories path (f-directory? (f-join it "modules")))))
+    (f--directories path (f-directory? (f-join it "modules")))))
 
 (defun ede-php-autoload-drupal--filter-modules (modules)
   "Filters blacklisted paths from MODULES.
