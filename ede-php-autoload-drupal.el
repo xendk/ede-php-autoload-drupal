@@ -64,10 +64,9 @@ found autoloads."
   (let* ((psr4 (member :psr-4 autoloads))
          path)
     (if psr4
-        (progn
-          (setq path (cdr (assoc "Drupal\\Core" (car (cdr psr4)))))
-          (setq path (if (listp path) (car path) path))
-          (if path (f-parent (f-parent (f-parent path))) nil))
+      (let* ((path (cdr (assoc "Drupal\\Core" (car (cdr psr4)))))
+             (path (if (listp path) (car path) path)))
+        (if path (f-parent (f-parent (f-parent path)))))
       nil)))
 
 (defun ede-php-autoload-drupal--find-modules (path)
