@@ -6,7 +6,7 @@ test-unit:
 	$(CASK) exec buttercup
 
 test-functional:
-	$(CASK) exec ecukes
+	$(CASK) exec ecukes -r magnars
 
 test-all:
 	$(MAKE) test-unit
