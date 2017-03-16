@@ -81,10 +81,11 @@ found autoloads."
                  ;; All sites. Includes sites/all.
                  (ede-php-autoload-drupal--find-dirs-with-modules (f-join path "sites"))))
          (yaml-files (cl-loop for path in paths
-                              append (f--entries (f-join path "modules")
-                                                 (s-matches? "\\.info\\.yml$"
-                                                             (f-filename it))
-                                                 t)))
+                              append (if (f-exists? (f-join path "modules"))
+                                         (f--entries (f-join path "modules")
+                                                     (s-matches? "\\.info\\.yml$"
+                                                                 (f-filename it))
+                                                 t))))
          (modules (cl-loop for yaml in yaml-files
                            collect (cons (f-no-ext (f-no-ext (f-filename yaml)))
                                          (f-relative (f-dirname yaml) path)))))
